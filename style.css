@@ -1,0 +1,64 @@
+.post-wraper {
+    max-width:700px;
+    width:100%;
+    height: 100%;
+    
+}
+
+.posts{
+    background-color: aquamarine;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    display: none;
+}
+.overlay.activeOverlay {
+    display: block;
+}
+.close {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: red;
+    cursor: pointer;
+}
+
+.delete-btn {
+    width: 100px;
+    cursor: pointer;
+}
+
+.add-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:blanchedalmond;
+    display: none;
+}
+
+.add-post {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color:blue;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.add-overlay.addActive {
+    display: block;
+}
